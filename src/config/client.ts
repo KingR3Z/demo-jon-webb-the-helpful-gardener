@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "kibo kibo", rating: 5, text: "Needed a gardener to cut just the top of a 3m wide boundary hedge. I prepared full details and photos of the hedge, and send this to him. We agreed a date and cost. …  ", date: "Edited 5 months ago" },
+    { name: "Harpal Singh", rating: 5, text: "We put a last minute call out for a gardener to do some light gardening work and Jon was the first to quickly respond and was happy to turn up the very next day. He kept us updated on his ETA throughout the day, and when he turned up it was …  ", date: "3 years ago" },
+    { name: "T c", rating: 5, text: "Very nice guy, 1000% recommend to anyone that needs garden work. Very professional and he’s done a very good job. Thanks  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
